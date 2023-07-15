@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Library</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="header">
+        <div class="title">your library</div>
+        <button class="add">Add</button>
+    </div>
+    <div id="content">
+        <!-- <div class="books">
+            <div class="bookName">Lord of the Rings</div>
+            <div class="author">JRR Tolkien</div>
+            <div class="pages">650 pages</div>
+            <div class="isRead">Read</div>
+            <div class="delete">DELETE</div>
+        </div>
+        <div class="books">
+            <div class="bookName">Lord of the Rings</div>
+            <div class="author">JRR Tolkien</div>
+            <div class="pages">650 pages</div>
+            <div class="isRead">Read</div>
+            <div class="delete">DELETE</div>
+        </div>
+        <div class="books">
+            <div class="bookName">Lord of the Rings</div>
+            <div class="author">JRR Tolkien</div>
+            <div class="pages">650 pages</div>
+            <div class="isRead">Read</div>
+            <div class="delete">DELETE</div>
+        </div> -->
+    </div>
+    <div class="modal">
+        <form class="form" action="#">
+            <div class="input-group">
+                <label for="bookName">Title</label>
+                <input required type="text" name="bookName" id="bookName">
+            </div>
+            <div class="input-group">
+                <label for="author">Author</label>
+                <input required type="text" name="author" id="author">
+            </div>
+            <div class="input-group">
+                <label for="pages">Pages</label>
+                <input required type="number" name="pages" id="pages">
+            </div>
+            <div class="input-group">
+                <label for="isRead">Have you read the book</label>
+                <input type="checkbox" id="isRead" name="isRead" value="isRead">
+            </div>
+            <div class="submit">
+                <input type="submit" value="ADD">
+            </div>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
